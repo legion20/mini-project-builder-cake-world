@@ -2,10 +2,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-*{
+body{
     margin:0;
     padding:0;
+    background-color: #4b1d1d;
 }
 
-/* Fill your code*/
 
+.main{
+    margin-top: 5%;
+    text-align: center;
+    background-color: #9d61b9;
+}
+
+.logo{
+    background-color: black;
+    border-radius: 50%;
+    border: 35px solid black;
+    position: relative;
+    top: -70px;
+}
+
+.logo_text{
+    position: relative;
+    top: -120px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    font-family: 'Acme';
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.list{
+    width: 40%;
+    height: 300px;
+}
+
+.prices, .bill{
+    position: relative;
+}
+
+.pricelist, .billlist{
+    font-family: 'Architects Daughter';
+    color: white;
+    background-color: none;
+    position: absolute;
+    bottom: 30px;
+    left: 220px;
+    height: 250px;
+}
+
+.billlist > p{
+    margin: 0 auto;
+}
+
+.total{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-family: 'Acme';
+    background-color: #9d61b9;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+#buy{
+    background-color: #7dff03;
+    color: black;
+    border: 2px solid black;
+    outline: 2px solid white;
+}
+
+.design{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#layer1{
+    width: 60%;
+    height: 30px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+#layer2{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+#layer3{
+    width: 40%;
+    height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+#layer4{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+#layer5{
+    width: 20%;
+    height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-radius: 10px;
+}
